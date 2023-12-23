@@ -1,0 +1,1058 @@
+
+html {
+	font-size:62.5%;
+  background-color: #f5f8fa;
+
+}
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  /* width: 144rem; */
+  width: auto;
+}
+
+.container {
+  width: 100%;
+  height: 117rem;
+  background-color: #f5f8fa;
+}
+ .container .wrapper {
+  box-sizing: border-box;
+  padding: 2.8rem 4rem 13.9rem 4rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f8fa;
+}
+.container .wrapper .nav-bar-container {
+  margin-bottom: 8.5rem;
+  width: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group {
+  margin-bottom: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group .logo-container {
+  margin-right: 68.4rem;
+  width: 20rem;
+  height: 3.9rem;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url('../assets/wppusher-logo-copy.png');
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group .navigation-container {
+  margin-bottom: 0.1rem;
+  height: 4rem;
+  overflow: hidden;
+  position: relative;
+  left: 46rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group .navigation-container .nav-links {
+  box-sizing: border-box;
+  padding: 1.1rem 4.4rem 1.2rem 0rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group .navigation-container .nav-links .download-link {
+  margin-right: 4.2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group .navigation-container .nav-links .learn-more-link {
+  margin-right: 4.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group .navigation-container .nav-links .pricing-link {
+  margin-right: 4.3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group .navigation-container .nav-links .help-link {
+  margin-right: 4.3rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .nav-bar-container .nav-group .navigation-container .account-link {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.001rem;
+    color: #1d2c3c;
+    font-family: Lato, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.navigation-container a:focus{
+  margin-right: 0;
+  width: 9.1rem;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #646e7a;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+  transition: ease-in 0.8s;
+}
+
+
+.navigation-container a.help-link:focus, .navigation-container a.pricing-link:focus{
+  margin-right: 0;
+  width: 6rem;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 0.2rem #646e7a;
+  box-sizing: border-box;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+  transition: ease-in 0.1s;
+}
+
+
+.container .wrapper .nav-bar-container .horizontal-rule {
+  /* width: 135.8rem; */
+  width: 182rem; 
+  height: 0.2rem;
+  background-color: #e0e5e9;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container {
+  margin: 0rem 24.6rem 0rem 21.6rem;
+  width: calc(100% - 46.2rem);
+  height: 84.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel {
+  width: 89.2rem;
+  height: 84.5rem;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content {
+  margin-bottom: 3.3rem;
+  width: 100%;
+  height: 79.5rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.049082879), 0 1.5rem 3.5rem rgba(42, 63, 78, 0.0955049843);
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container {
+  margin: 4.1rem 0rem 4.69rem 0rem;
+  width: 58rem;
+  height: calc(100% - 8.7899rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .title-group {
+  margin-bottom: 3.4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .title-group .checkout-heading {
+  margin: 0rem 0rem 4.2rem 4.8rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .title-group .horizontal-rule-copy {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f5f7fa;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section {
+  margin-bottom: 3.3rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group {
+  box-sizing: border-box;
+  padding: 0rem 4.7rem 4.1rem 4.9rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .basic-info {
+  margin: 0rem 26.3rem 1.3rem 0rem;
+  width: calc(100% - 26.3rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .basic-info .item-number {
+  margin-right: 1rem;
+  width: 3rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .basic-info .item-number .item-number-text1 {
+  width: 1rem;
+  height: 2rem;
+  position: absolute;
+  left: 1rem;
+  top: 0.4rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0142rem;
+  color: #548bc5;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .basic-info .item-number .oval-container1 {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.2rem #548bc5;
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .basic-info .info-heading {
+  margin-bottom: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.016rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .name-section {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .name-section .first-name-container {
+  margin-right: 3rem;
+  width: 22.7rem;
+  height: 100%;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .name-section .first-name-container .first-name-text {
+  margin-bottom: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .name-section .first-name-container .first-name-value {
+  box-sizing: border-box;
+  padding: 0.9rem 1.3rem 1rem 1.3rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #646e7a;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #edeff2;
+  border-radius: 0.4rem;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .name-section .last-name-container {
+  width: 22.7rem;
+  height: 100%;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .name-section .last-name-container .last-name-text {
+  margin-bottom: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .name-section .last-name-container .last-name-value {
+  box-sizing: border-box;
+  padding: 0.9rem 1.3rem 1rem 1.3rem;
+  width: 22.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #646e7a;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #edeff2;
+  border-radius: 0.4rem;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .email-container {
+  width: 37rem;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .email-container .email-text {
+  margin-bottom: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .info-group .email-container .email-value {
+  box-sizing: border-box;
+  padding: 0.9rem 1.3rem 1rem 1.3rem;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #646e7a;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #edeff2;
+  border-radius: 0.5rem;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .basic-section .horizontal-rule-copy2 {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f5f7fa;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section {
+  margin-bottom: 3.9rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group {
+  box-sizing: border-box;
+  padding: 0rem 4.8rem 4.1rem 4.9rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .payment-info-text-container {
+  margin: 0rem 23.3rem 2.1rem 0rem;
+  width: calc(100% - 23.3rem);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .payment-info-text-container .item-number-2 {
+  margin-right: 1rem;
+  width: 3rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .payment-info-text-container .item-number-2 .item-number-text2 {
+  width: 1rem;
+  height: 2rem;
+  position: absolute;
+  left: 1rem;
+  top: 0.4rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0142rem;
+  color: #548bc5;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .payment-info-text-container .item-number-2 .oval-container2 {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.2rem #548bc5;
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .payment-info-text-container .payment-info-heading-text {
+  margin-bottom: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.016rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .credit-card-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .credit-card-section .credit-card-text {
+  margin-bottom: 0.7rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .credit-card-section .credit-card-details {
+  box-sizing: border-box;
+  padding: 0.9rem 1.6rem 1rem 1.3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #edeff2;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .credit-card-section .credit-card-details .card-number-text {
+  margin-right: 15rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #646e7a;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 0.9rem 1.6rem 1rem 1.3rem;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  background-color: #edeff2;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .credit-card-section .credit-card-details .expiration-date-text {
+  /* margin-right: 2.2rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #646e7a;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0; */
+  box-sizing: border-box;
+  padding: 0.9rem 1.6rem 1rem 1.3rem;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  background-color: #edeff2;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+  font-family: Lato, 'Source Sans Pro';
+  width: 80px;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .payment-info-group .credit-card-section .credit-card-details .cvc-text {
+  box-sizing: border-box;
+  padding: 0.9rem 1.6rem 1rem 0.9rem;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  background-color: #edeff2;
+  border-radius: 0.4rem;
+  flex-shrink: 0;
+  font-family: Lato, 'Source Sans Pro';
+  width: 50px;
+
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .payment-section .horizontal-rule-copy3 {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f5f7fa;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section {
+  margin: 0rem 4.8rem 0rem 4.9rem;
+  width: calc(100% - 9.7rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .buy-button {
+  width: 100%;
+  height: 5.2rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0396rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #038e7d;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section {
+  box-sizing: border-box;
+  padding: 2.3rem 7.5rem 0rem 7.5rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section .support-info {
+  margin-bottom: 3.1rem;
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section .support-info .mask-image {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section .support-info .support-text-container {
+  margin: 0.1rem 0rem 0.2rem 0rem;
+  width: 30.3rem;
+  height: calc(100% - 0.3rem);
+  position: relative;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section .support-info .support-text-container .support-horizontal-rule {
+  width: 9.4rem;
+  height: 0.1rem;
+  position: absolute;
+  left: 20.3rem;
+  top: 1.5rem;
+  background-color: #646e7a;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section .support-info .support-text-container .support-text {
+  width: 30.3rem;
+  height: 1.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.171875;
+  letter-spacing: -0.001rem;
+  color: #1d2c3c;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section .support-info .support-text-container .support-text .support-text-sub-0 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #1d2c3c;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section .support-info .support-text-container .support-text .support-text-2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #646e7a;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .title-container .purchase-section .support-section .powered-by-stripe-image {
+  margin-left: 0.3rem;
+  width: 9.2rem;
+  height: 2.0101rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container {
+  box-sizing: border-box;
+  padding: 4.2rem 3.7rem 4.2rem 4.4rem;
+  width: 31.2rem;
+  height: 100%;
+  background-color: #1179bf;
+  border-radius: 0 0.6rem 0.6rem 0;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content {
+  width: 100%;
+  height: 61rem;
+  display: flex;
+  flex-direction: column;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .plan-section {
+  margin-bottom: 3.6rem;
+  width: 15.8rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .plan-section .plan-name {
+  margin: 0rem 0rem 0.5rem 0.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.001rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .plan-section .plan-price {
+  margin: 0rem 1.8rem 0.3rem 0rem;
+  width: calc(100% - 1.8rem);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .plan-section .plan-price .dollar-sign {
+  margin: 0rem 0.6rem 1.7rem 0rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0015rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .plan-section .plan-price .plan-duration {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.171875;
+  letter-spacing: -0.0015rem;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .plan-section .plan-price .plan-duration .plan-duration-1 {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2;
+  letter-spacing: -0.0015rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .plan-section .plan-price .plan-duration .plan-duration-2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0015rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .plan-section .renewal-text {
+  margin-left: 0.2rem;
+  max-width: 15.6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.0008rem;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section {
+  margin: 0rem 0rem 4.1rem 0.1rem;
+  width: 17rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .details-info-group {
+  margin-bottom: 0.1rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .details-info-group .features-icons {
+  margin: 0.1rem 1.1rem 0rem 0rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .details-info-group .features-icons .features-icons-1 {
+  margin-bottom: 1.6rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .details-info-group .features-icons .features-icons-2 {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .details-info-group .feature-text {
+  max-width: 13.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .details-info-group .feature-text .feature-text-0 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .details-info-group .feature-text .feature-text-1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .details-info-group .feature-text .feature-text-2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .details-section .combined-shape-copy-2-whe {
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section {
+  margin: 0rem 0rem 4.1rem 0.2rem;
+  width: 18.4rem;
+  height: 5.1rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  word-wrap: break-word;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text {
+  width: 15.1rem;
+  height: 5.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.171875;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-0 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  text-decoration: underline;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0008rem;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-5 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  overflow: visible;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-6 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+
+
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-4,
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-5,
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-text .switch-text-part-6 {
+  text-decoration: underline; /* Ensure inline display for these spans */
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .switch-section .switch-horizontal-rule {
+  opacity: 0.504;
+  width: 18rem;
+  height: 0.4rem;
+  position: absolute;
+  left: 0;
+  top: 4.7rem;
+  background-color: rgba(185, 245, 255, 0.5035665631);
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section {
+  width: 22.7rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-horizontal-rule {
+  margin-bottom: 4.1rem;
+  opacity: 0.201;
+  width: 22.4rem;
+  height: 0.2rem;
+  background-color: rgba(255, 255, 255, 0.2005208284);
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-text {
+  margin: 0rem 0rem 1.7rem 0.2rem;
+  max-width: 22.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.0009rem;
+  color: #ffffff;
+  font-family: Roboto, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-text .quote-text-0 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.0009rem;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-text .quote-text-1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.3333333333;
+  letter-spacing: -0.0009rem;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-text .quote-text-2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.3333333333;
+  letter-spacing: -0.0009rem;
+  font-style: italic;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-author-group {
+  margin-right: 9.6rem;
+  width: calc(100% - 9.6rem);
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-author-group .quote-author-image-container {
+  margin-right: 1.4rem;
+  width: 4rem;
+  height: 100%;
+  background-color: #d8d8d8;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-author-group .quote-author-image-container .author-image {
+  width: 4rem;
+  height: 4rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+}
+.container .wrapper .content-container .checkout-panel .checkout-content .sidebar-container .sidebar-content .quote-section .quote-author-group .author-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.0008rem;
+  color: #ffffff;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .publisher-water-mark {
+  margin-left: 2.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2000000817;
+  color: #636b6f;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.container .wrapper .content-container .checkout-panel .publisher-water-mark .water-mark-text-0 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #636b6f;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .checkout-panel .publisher-water-mark .water-mark-text-1 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #31708f;
+  font-family: Lato, 'Source Sans Pro';
+}
+.container .wrapper .content-container .frame-1 {
+  width: 10rem;
+  height: 10rem;
+  position: absolute;
+  left: 0;
+  top: 9rem;
+  overflow: hidden;
+}
